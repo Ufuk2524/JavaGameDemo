@@ -3,7 +3,7 @@ package Concrete;
 
 import Abstract.GamerCheckService;
 import Abstract.GamerService;
-import Adapter.MernisServiceAdapter;
+import Adapters.MernisServiceAdapter;
 import Entities.Gamer;
 
 public class GamerManager implements GamerService{
