@@ -1,5 +1,9 @@
 package Entities;
 
+
+
+
+
 public class Gamer {
 	private int gamerId;
 	private String firstName;

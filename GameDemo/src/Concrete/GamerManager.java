@@ -1,12 +1,18 @@
 package Concrete;
 
+
 import Abstract.GamerCheckService;
 import Abstract.GamerService;
+import Adapter.MernisServiceAdapter;
 import Entities.Gamer;
 
 public class GamerManager implements GamerService{
+	
 	private GamerCheckService gamerCheckService;
+	
+
 	public GamerManager(GamerCheckService gamerCheckService) {
+		super();
 		this.gamerCheckService = gamerCheckService;
 	}
 
